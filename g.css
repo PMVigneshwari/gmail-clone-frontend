@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+}
+.btn
+{
+    display: inline-block;
+    margin:none;
+    padding:none;
+    border: 2px solid transparent;
+    font-size:20px;
+    cursor:pointer;
+    text-align: left;
+    text-decoration: none;
+    border-style:none;
+    color:red;
+}
+i{
+    margin: 1px ;
+    border: 1px;
+    padding: 1px;
+    color:black;   
+}   
+.d-flex{
+    justify-content: start;
+    align-items: center;
+}
+.firstColumn{
+    margin: 0px 0px 0px 0px;
+    border: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    flex-grow:1; transparent;
+}
+.row
+{
+    margin: 0px 0px 0px 0px;
+    border: 0px;
+    padding: 0px;
+}
+.col{
+    background-color:transparent;
+}
+.secondColumn{
+    margin: 0px 0px 0px 0px;
+    border: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    flex-grow:1; transparent;
+}
+.gmailName{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:30px;
+    color:orangered;
+}
